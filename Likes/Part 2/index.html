@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Like: Part 2</title>
+</head>
+<body>
+  <div class="header">
+    <h1>Network</h1>
+  </div>
+  <div class="rows flex">
+    <div class="col-1">
+      <img src="images.jpg" alt="profile img">
+      <a href="">Add an avatar</a>
+      <h1>John Smith</h1>
+    </div>
+    <div class="col-2">
+      <h1>Your Feed</h1>
+      <div class="profile">
+        <div class="top flex">
+          <h2>Morgan F.</h2>
+          <div class="likeIt flex">
+            <p id="one">9 like(s)</p>
+            <button onclick="incrLikes(0)">Likes</button>
+          </div>
+        </div>
+        <p>Looking to narrate some new content. Maybe become the upcoming narrator to the life of all things. Any thoughts?</p>
+      </div>
+      <div class="profile">
+        <div class="top flex">
+          <h2>Darth V.</h2>
+          <div class="likeIt flex">
+            <p id="two">111 like(s)</p>
+            <button onclick="incrLikes(1)">Likes</button>
+          </div>
+        </div>
+        <p>Join the dark side. We have a meet & greet tomorrow @ 10am. The darkest coffee will be served and the best of donuts. If you are lonely and depressed, the dark side is for you!</p>
+      </div>
+      <div class="profile">
+        <div class="top flex">
+          <h2>Toby F.</h2>
+          <div class="likeIt flex">
+            <p id="three">0 like(s)</p>
+            <button onclick="incrLikes(2)">Likes</button>
+          </div>
+        </div>
+        <p>I wish Pam would notice me. Every time I come out of the annex to try and talk to her either Jim is already there or Michael interrupts to bully me. Nice weather.</p>
+      </div>
+    </div>
+  </div>
+  
+</body>
+<script src="script.js"></script>
+</html>

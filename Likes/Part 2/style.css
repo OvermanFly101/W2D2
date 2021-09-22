@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 800px;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+
+.flex {
+  display: flex;
+}
+/*header*/
+.header {
+  background-color: rgb(8, 8, 8);
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.rows{
+  justify-content: baseline;
+}
+
+/*col-1*/
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 15px;
+}
+.col-1 {
+  border: 2px solid black;
+  padding: 15px;
+  margin-top: 56px;
+  margin-right: 20px;
+  text-align: center;
+  height: 322px;
+}
+
+/*col-2*/
+.profile {
+  border: 2px solid black;
+  padding: 20PX;
+  margin-bottom: 10px;
+}
+
+.likeIt {
+  margin-left: 55%;
+}
+
+.likeIt p{
+  margin-right: 10px;
+}
+
+.likeIt button{
+  padding: 5px;
+  background-color: rgb(236, 204, 21);
+  box-shadow: 3px 3px black;
+}
+
+.profile p{
+  margin-top: 15px;
+}
+
+#3 {
+  margin-left: 60%;
+}
+
+.col-2 h1{
+  margin-bottom: 20px;
+}
